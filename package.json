@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/DavidCavalcanti/api-sistemas-embarcados#readme",
   "devDependencies": {
+    "eslint": "^8.51.0",
     "nodemon": "^3.0.1"
   },
   "dependencies": {
