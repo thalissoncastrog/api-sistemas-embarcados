@@ -4,6 +4,7 @@ import DeviceController from "../controller/deviceController.js";
 const deviceRoutes = express.Router();
 
 deviceRoutes
-    .get("/wind", DeviceController.wind);
+    .get("/dashboard/wind", DeviceController.listDevices)
+    .put("/dashboard/wind/:id", DeviceController.updateDevices);
 
 export default deviceRoutes;
