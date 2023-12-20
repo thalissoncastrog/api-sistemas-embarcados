@@ -47,3 +47,15 @@ Descrição: Atualiza o status(ligado/desligado) e/ou a temperatura de cada apar
 Parâmetro de busca: {id}
 
 Retorno: "Dispositivo atualizado!"
+
+## Contribuição
+
+Faça o fork do projeto (fork no canto superior direito desta página)
+Crie uma nova branch (git checkout -b feature/nova-feature)
+Faça commit das alterações (git commit -am 'Adiciona nova feature')
+Faça push para a branch (git push origin feature/nova-feature)
+Crie um novo Pull Request
+
+## Licença
+
+Este projeto é licenciado sob a Licença MIT - veja o arquivo <a href="https://github.com/DavidCavalcanti/api-sistemas-embarcados/tree/main?tab=MIT-1-ov-file" target="_blank">LICENSE</a> para detalhes.
