@@ -1,7 +1,5 @@
 # API Rest para Controle de Ar Condicionados
 
-# Título do projeto
-
 Essa API conecta-se a um projeto no MongoDB para armazenar dados de temperatura de ar-condicionados.
 
 ## 🚀 Começando
@@ -28,11 +26,9 @@ Release 1.0.0.0.
 
 ## ✒️ Autores
 
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
 * **Thalisson Castro** - [Perfil do Engenheiro](https://github.com/thalissoncastrog)
 * **David Levy** - [Perfil do Engenheiro](https://github.com/davidcavalcanti)
 
 ## 📄 Licença
 
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
+Este projeto está sob a licença (MIT License) - veja o arquivo [LICENSE.md](https://github.com/thalissoncastrog/api-sistemas-embarcados/blob/main/LICENSE) para detalhes.
