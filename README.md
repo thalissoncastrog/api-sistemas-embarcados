@@ -35,6 +35,34 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 1. Inicie o servidor: npm start
 2. Acesse a API em http://localhost:3000 (ou a porta configurada no arquivo .env).
 
+## Padrão MVC
+
+O Padrão Modelo-Visão-Controlador (MVC) é uma arquitetura de software amplamente adotada para desenvolvimento de aplicativos, oferecendo uma estrutura organizacional que promove a separação clara de responsabilidades. Este padrão é composto por três componentes principais:
+
+![MVC-PATTERN](/img/mvc-pattern.png)
+
+1. Modelo (Model):
+   Responsável pela manipulação e gestão dos dados, o Modelo representa a camada de lógica de negócios. Ele processa dados, valida entradas e notifica alterações, garantindo a integridade e consistência das informações.
+
+2. Visão (View):
+   A Visão é a camada de apresentação que exibe os dados ao usuário. Ela recebe informações do Modelo e apresenta de forma compreensível. A Visão não manipula dados diretamente, focando-se na experiência do usuário.
+
+3. Controlador (Controller):
+   Atuando como intermediário, o Controlador recebe comandos da interface do usuário, processa e interage com o Modelo. Ele é responsável pela atualização da Visão com base nas mudanças no Modelo, promovendo a comunicação eficiente entre as camadas.
+
+Funcionamento:
+
+- O usuário interage com a interface (Visão), que envia comandos para o Controlador.
+- O Controlador processa os comandos, interage com o Modelo e atualiza a Visão.
+- O Modelo manipula dados, aplica lógica de negócios e notifica o Controlador sobre alterações.
+- O Controlador atualiza a Visão com dados atualizados do Modelo.
+
+Vantagens do MVC:
+
+- Separação de Responsabilidades: Cada componente tem uma função específica, facilitando a manutenção e escalabilidade.
+- Reutilização de Código: Componentes podem ser reutilizados em diferentes partes do aplicativo.
+- Testabilidade: A divisão de responsabilidades facilita a criação de testes unitários.
+
 ## Endpoints
 
 **GET** /dashboard/wind
