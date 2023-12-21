@@ -35,7 +35,7 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 1. Inicie o servidor: npm start
 2. Acesse a API em http://localhost:3000 (ou a porta configurada no arquivo .env).
 
-## Padrão MVC
+## Padrão de Projeto Utilizado
 
 O Padrão Modelo-Visão-Controlador (MVC) é uma arquitetura de software amplamente adotada para desenvolvimento de aplicativos, oferecendo uma estrutura organizacional que promove a separação clara de responsabilidades. Este padrão é composto por três componentes principais:
 
@@ -69,7 +69,7 @@ Vantagens do MVC:
 
 ## Endpoints
 
-**GET** /dashboard/wind
+**GET** /dashboard/wind 
 
 Descrição: Retorna uma lista contendo todos os dispositvos cadastrados no banco
 
@@ -78,6 +78,8 @@ Parâmetro de busca: Nenhum
 Retorno:
 
 ![image](https://github.com/DavidCavalcanti/api-sistemas-embarcados/assets/54603847/2b006383-16c4-464b-a995-3dc03e52aad5)
+
+URL Digital Ocean: http://167.172.130.199/dashboard/wind
 
 **PUT** /dashboard/wind
 
