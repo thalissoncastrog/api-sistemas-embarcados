@@ -40,7 +40,9 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 O Padrão Modelo-Visão-Controlador (MVC) é uma arquitetura de software amplamente adotada para desenvolvimento de aplicativos, oferecendo uma estrutura organizacional que promove a separação clara de responsabilidades. Este padrão é composto por três componentes principais:
 
 <div align="center">
-   ![MVC-PATTERN](/img/mvc-pattern.png)
+
+![MVC-PATTERN](/img/mvc-pattern.png)
+
 </div>
 
 1. Modelo (Model):
