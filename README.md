@@ -1,15 +1,22 @@
- <h1 align="center">api-sistemas-embarcados</h1>
+# API Rest para Controle de Ar Condicionados
 
 Esta API foi desenvolvida como requisito da disciplina de Sistesmas Embarcados do curso de Engenharia da Computação da Fundação Universidade Federal do Vale do São Francisco.
 Sendo construía a partir da arquitetura REST utiizando NodeJS e Express, esta API possui funções para verificar e controlar ar-condicionados por meio dessa <a href="https://www.figma.com/file/xptrJVINhr58sNnUCMdrms/Sistema-Embarcados?type=design&node-id=55-131&mode=design" target="_blank">interface</a>, a qual a API retornará o status de cada aparelho
 (ligado/desligado), possibilitando a alteração de suas temperaturas e alteração do seu status.
 
 > Status: Concluído
-## Pré-requisitos
+### 📋 Pré-requisitos
 
 Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 - Node.js
 - npm (gerenciador de pacotes do Node.js)
+
+## 🛠️ Construído com
+
+* [Visual Studio Code](https://code.visualstudio.com/download) - Editor de Código.
+* [Postman](https://www.postman.com/downloads/) - Ferramenta de Colaboração para o Desenvolvimento de APIs.
+* [Express](https://www.npmjs.com/package/express) - Usado para Facilitar a Criação de Rotas.
+* [Mongoose](https://www.npmjs.com/package/mongoose) - Usada para Conexão com o Banco de Dados MongoDB.
 
 ## Instalação
 
@@ -47,6 +54,15 @@ Descrição: Atualiza o status(ligado/desligado) e/ou a temperatura de cada apar
 Parâmetro de busca: {id}
 
 Retorno: "Dispositivo atualizado!"
+
+## 📌 Versão
+
+Release 1.0.0.0.
+
+## ✒️ Autores
+
+* **Thalisson Castro** - [Perfil do Engenheiro](https://github.com/thalissoncastrog)
+* **David Levy** - [Perfil do Engenheiro](https://github.com/davidcavalcanti)
 
 ## Contribuição
 
